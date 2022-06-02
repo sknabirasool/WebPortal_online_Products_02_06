@@ -1,0 +1,31 @@
+﻿@page
+@model WebPortal_02.Pages.admin.loginModel
+@{
+}
+
+<br />
+
+<h1>Login Admin</h1>
+
+<form method="GET">
+    <div class="col-row mb-3">
+        <label for="Email" class="col-sm-3 col-form-label">Email-ID</label>
+        <div class="col-sm-6">
+            <input type="email" name="email" class="form-control" value="@Model.log.email" />
+        </div>
+    </div>
+     <div class="col-row mb-3">
+        <label for="password" class="col-sm-3 col-form-label">Password</label>
+        <div class="col-sm-6">
+            <input type="password" name="password" class="form-control" value="@Model.log.password"/>
+        </div>
+    </div>
+     <div class="col-row mb-3">
+       
+        <div class="col-sm-6">
+         <input type="submit" class="btn btn-primary" name="submit">
+        </div>
+    </div>
+</form>
+
+
