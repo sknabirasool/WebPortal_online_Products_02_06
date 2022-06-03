@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.Data.SqlClient;
 
 namespace WebPortal_02.Pages.admin
 {
@@ -7,6 +8,7 @@ namespace WebPortal_02.Pages.admin
     {
         public void OnGet()
         {
+            
         }
     }
 }

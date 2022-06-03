@@ -10,6 +10,7 @@ namespace WebPortal_02.Pages.admin
 
         public string ErrorMessage = "";
         public string SuccessMessage = "";
+        public string UserName;
         public void OnGet()
         {
             string EMAIL = Request.Query["email"];
@@ -33,7 +34,13 @@ namespace WebPortal_02.Pages.admin
                             //int count = reader.FieldCount();
                             if (reader.HasRows)
                             {
-                                Response.Redirect("welcome");
+                                if(reader["user_name"]!=null)
+                                {
+                                    UserName = reader["user_name"].ToString();
+                                }
+                               
+
+                                Response.Redirect("welcome?"+UserName);
                             }
                             else
                             {
