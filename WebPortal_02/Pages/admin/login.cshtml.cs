@@ -11,6 +11,8 @@ namespace WebPortal_02.Pages.admin
         public string ErrorMessage = "";
         public string SuccessMessage = "";
         public string UserName;
+
+
         public void OnGet()
         {
             string EMAIL = Request.Query["email"];
@@ -38,14 +40,17 @@ namespace WebPortal_02.Pages.admin
                                 {
                                     UserName = reader["user_name"].ToString();
                                 }
-                               
+                                Response.Redirect("welcome?usName="+UserName);
 
-                                Response.Redirect("welcome?"+UserName);
+
+
                             }
                             else
                             {
+
                                 ErrorMessage = "Invalid Login Details";
                                 return;
+
                             }
                         }
                     }

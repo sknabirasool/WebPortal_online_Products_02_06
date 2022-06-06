@@ -39,6 +39,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[G:/Tech/WebPortal_02/WebPortal_02/Pages/products/AddCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccHJvZHVjdHNcQWRkQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Tech/WebPortal_02/WebPortal_02/Pages/products/AddProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccHJvZHVjdHNcQWRkUHJvZHVjdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Tech/WebPortal_02/WebPortal_02/Pages/products/categorylist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccHJvZHVjdHNcY2F0ZWdvcnlsaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [G:/Tech/WebPortal_02/WebPortal_02/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

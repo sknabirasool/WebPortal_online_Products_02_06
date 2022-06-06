@@ -1,16 +1,12 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-
-namespace WebPortal_02.Pages.admin
+namespace WebPortal_02.Pages.products
 {
-    public class headerModel : PageModel
+    public class AddProductsModel : PageModel
     {
-    
         public void OnGet()
         {
-            
         }
-
     }
 }
