@@ -33,7 +33,7 @@ namespace WebPortal_02.Pages.admin
                         using (SqlDataReader reader = command.ExecuteReader())
                         {
                             reader.Read();
-                            //int count = reader.FieldCount();
+                           
                             if (reader.HasRows)
                             {
                                 if(reader["user_name"]!=null)

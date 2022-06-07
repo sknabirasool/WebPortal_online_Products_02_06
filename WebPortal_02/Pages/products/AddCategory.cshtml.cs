@@ -48,7 +48,7 @@ namespace WebPortal_02.Pages.products
                         command.Parameters.AddWithValue("@category_name", cats.category_name);
                         command.Parameters.AddWithValue("@created_at", cats.created_at);
                         command.ExecuteNonQuery();
-                        Response.Redirect("../admin/welcome");
+                        Response.Redirect("../products/categorylist");
                            
                     }
                 }
